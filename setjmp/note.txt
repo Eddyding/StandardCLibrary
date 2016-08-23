@@ -1,0 +1,16 @@
+1.
+int f(void)
+{ 
+ /*  outer function */
+int g(void)
+{
+  /* not permitted  */
+  ....
+}
+}
+
+c language does not let you nest functions.
+
+
+
+
